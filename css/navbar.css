@@ -11,10 +11,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38a8d1', end
 section{
   position:relative;
   width:480px;
-  margin:50px auto;
+  margin:0px auto;
 }
 nav{
-  width:100%;
+    width: 480px;
+    position: fixed;
+    z-index: 9999;
 }
 nav ul li{
   display:inline-block;
